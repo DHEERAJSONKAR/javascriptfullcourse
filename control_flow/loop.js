@@ -95,7 +95,7 @@ for(let a =1; a <=3; a++){
  * use for - when you know the number of iterations.
  * use while - when the number of iterations depends on a conditions.
  * use do.. while loop - when the code must execute at least once.
- * use for.. in loop - for object.
+ * use for.. in loop - for object. 
  * use for.. of loop - for arrays, strings, or iterable objects.
  * use break - to exit the loop immediately.           
 */
