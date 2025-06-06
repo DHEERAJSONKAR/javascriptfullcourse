@@ -6,6 +6,21 @@ finally block - code that will execute regardless of whether an error occurred o
 
 */
 
-/*
-//   
-*/
+try{
+    let num=10/0;
+    console.log(num);
+
+    let a = Number('hello');
+    console.log(a)
+
+    if(isNaN(a)){
+        throw("not a number");
+    }
+
+}
+catch(error){
+ console.log("exeception define:", error);
+}
+finally{
+console.log("hello word");
+}
